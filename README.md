@@ -33,10 +33,8 @@ cd hooks
 Then, rename the post.update.sample to post.update and remove all content to 
 
 ```html
-GIT_WORK_TREE=/var/www/html/ git checkout -f
+GIT_WORK_TREE=/path/to/server/project/folder/ git checkout -f
 ```
-
-Here /var/www/html/ is the path of your project directory
 
 
 Add Your Remote Repository
@@ -71,7 +69,7 @@ $ cd hooks
 $ cp post.update.sample post.update
 $ vi post.update
 
-GIT_WORK_TREE=/var/www/html/ git checkout -f
+GIT_WORK_TREE=/path/to/server/project/folder git checkout -f
 
 save the above content in post.update
 ```
