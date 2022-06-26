@@ -92,13 +92,14 @@ That’s it! You now know how to create your own Git repository on a private ser
 
 
 
-# ssh setupp in windows machine
 
-![alt text](https://github.com/pintuburman/deploy-your-project-with-git-push-in-ec2-server-aws/blob/main/ssh_config_file.jpg)
+
+
+# ssh setupp in windows machine
 
 ![alt text](https://github.com/pintuburman/deploy-your-project-with-git-push-in-ec2-server-aws/blob/main/ssh_config_file_path.jpg)
 
-
+![alt text](https://github.com/pintuburman/deploy-your-project-with-git-push-in-ec2-server-aws/blob/main/ssh_config_file.jpg)
 
 
 ```
