@@ -57,7 +57,37 @@ The rest of the command specifies the precise server file path to the bare Git r
 The final step is to push your project to the new repository. For example, if you are pushing the “master” branch, the command will look like this:
 
 ```html
-git push production master
+git push -f production master
 ```
+
+
+ON SERVER SIDE FULL EXAMPLE
+```
+$ cd /var/www/git
+$ mkdir website.git
+$ cd website.git
+$ git init --bare
+$ cd hooks
+$ cp post.update.sample post.update
+$ vi post.update
+
+GIT_WORK_TREE=/var/www/html/ git checkout -f
+
+save the above content in post.update
+```
+
+
+ON CLIENT SIDE FULL EXAMPLE
+```
+# on John's computer
+$ cd myproject
+$ git init
+$ git add .
+$ git commit -m 'Initial commit'
+$ git remote add production ubuntu@[server_ip_address]:/path/to/website.git
+$ git push -f production master
+```
+
+
 
 That’s it! You now know how to create your own Git repository on a private server.
