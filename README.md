@@ -10,12 +10,15 @@ mkdir website.git
 ```
 
 Then, enter the directory with the cd command:
-
-# cd website.git
+```html
+cd website.git
+```
 
 Once inside the directory, create a “bare” Git repository:
 
-# git init --bare
+```html
+git init --bare
+```
 
 Now, when you add website.git as a remote repository (as you’ll see how below) Git will be able to recognize it.
 
@@ -26,7 +29,9 @@ So far, you have created a git user account, a bare repository in the directory 
 
 Now, you just need to make your local Git installation aware of the new repository:
 
-# git remote add origin git@server:/path/to/website.git
+```html
+git remote add origin git@server:/path/to/website.git
+```
 
 Let us break this command a little bit.
 
@@ -36,6 +41,8 @@ The rest of the command specifies the precise server file path to the bare Git r
 
 The final step is to push your project to the new repository. For example, if you are pushing the “master” branch, the command will look like this:
 
-# git push origin master
+```html
+git push origin master
+```
 
 That’s it! You now know how to create your own Git repository on a private server.
