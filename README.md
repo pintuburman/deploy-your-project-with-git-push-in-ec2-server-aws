@@ -1,4 +1,4 @@
-# git setup in ec2 server aws
+# Deploy your project with git push in ec2 server aws
 
 Creating the “Bare” Git Repositories
 Once you’ve decided which directory will house your remote repositories, you can start creating repositories first as directories ending with a .git extension. The extension is important, as it distinguishes the directories containing Git repositories from regular directories.
