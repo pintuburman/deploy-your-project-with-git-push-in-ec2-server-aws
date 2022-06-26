@@ -61,7 +61,7 @@ git push -f production master
 ```
 
 
-ON SERVER SIDE FULL EXAMPLE
+# ON SERVER SIDE FULL EXAMPLE
 ```
 $ cd /var/www/git
 $ mkdir website.git
@@ -77,7 +77,7 @@ save the above content in post.update
 ```
 
 
-ON CLIENT SIDE FULL EXAMPLE
+# ON CLIENT SIDE FULL EXAMPLE
 ```
 # on John's computer
 $ cd myproject
