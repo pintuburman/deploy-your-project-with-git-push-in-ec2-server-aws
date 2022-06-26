@@ -89,3 +89,28 @@ $ git push -f production master
 
 
 That’s it! You now know how to create your own Git repository on a private server.
+
+
+
+#ssh setupp in windows machine
+
+```
+Host *
+     ForwardAgent no
+     ForwardX11 no
+     ForwardX11Trusted yes
+     Port 22
+     Protocol 2
+     ServerAliveInterval 60
+     ServerAliveCountMax 30
+     AddKeysToAgent yes
+
+Host [server_ip_address_without_brackets]
+  HostName [server_ip_address_without_brackets]
+  User [server_user_example_ubuntu]
+  IdentityFile ~/.ssh/[file_name_which_contains_ssh_key]
+```
+
+
+
+
