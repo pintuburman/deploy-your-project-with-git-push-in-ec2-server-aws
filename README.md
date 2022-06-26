@@ -5,7 +5,9 @@ Once you’ve decided which directory will house your remote repositories, you c
 
 For example, to create a repository called “website,” create a directory like so:
 
-# mkdir website.git
+```html
+mkdir website.git
+```
 
 Then, enter the directory with the cd command:
 
